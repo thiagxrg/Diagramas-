@@ -9,6 +9,6 @@ let bulletMass = 4;
 let bulletSpeed = 10;
 let bulletRecoilSpeed;
 
-(bulletMass*bulletSpeed)=(massWeapon*bulletRecoilSpeed)
+bulletRecoilSpeed=(bulletMass*bulletSpeed)/massWeapon
 
-console.log(bulletRecoilSpeed)
+console.log("El restroceso del arma es de: " + bulletRecoilSpeed)
